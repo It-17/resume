@@ -57,6 +57,11 @@ h3{
   margin-bottom: 50px;
 .}
 
+h1{
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 60px;
+}
 .about{
   width: 100%;
   padding: 100px 0px;
@@ -217,4 +222,54 @@ port-font{
 
 .contact form .btn-box.btns .btn{
   cursor: pointer;
+}
+
+.inner{
+    height: 1000px;
+}
+
+.carousel-image{
+   width: 700px;
+   height:1300px;
+ }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #5320c6;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #5320c6;
+}
+.carousel-imgsize {
+  width: 1000px;
+  height: 700px;
+  object-fit: contain;
+}
+
+.carousel-imgsize-2 {
+  width: 1000px;
+  height: 700px;
+  object-fit: contain;
+}
+
+.carousel-imgsize-3 {
+  width: 1000px;
+  height: 700px;
+  object-fit: contain;
+}
+.carousel-font {
+  color: black;
 }
